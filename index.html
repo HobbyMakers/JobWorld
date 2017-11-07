@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Home | Job Portal</title>
@@ -30,7 +30,9 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 	        </button>
-	        <a class="navbar-brand" href="index.html"><h2 style="color:White">Site Name</h2></a>
+	        <a class="navbar-brand" href="index.html">
+            <img src="images/logo1.png" width="260" height="60" />
+            </a>
 	    </div>
 	    <!--/.navbar-header-->
 	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
@@ -169,20 +171,70 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 <div class="container pmarginTop225px" >
   <div class="grid_1">
 	 <h3>Current Openings</h3>
-	   <ul id="flexiselDemo3">
-	      <li><img src="images/c1.gif"  class="img-responsive" /></li>
-		  <li><img src="images/c2.gif"  class="img-responsive" /></li>
-		  <li><img src="images/c3.gif"  class="img-responsive" /></li>
-		  <li><img src="images/c4.gif"  class="img-responsive" /></li>
-		  <li><img src="images/c5.gif"  class="img-responsive" /></li>
-		  <li><img src="images/c6.gif"  class="img-responsive" /></li>	
-	    </ul>
+	   <div id="flexiselDemo3">
+	      <li>
+            <div class="popenings-parts">
+                <h4>Developer</h4>
+                <p>Pset Technologies</p>
+                <p>Bangalore</p>
+            </div>
+            </li>
+
+	      <li>
+            <div class="popenings-parts">
+                <h4>Support Engineer</h4>
+                <p>Kpot Technologies</p>
+                <p>Bangalore</p>
+            </div>
+            </li>
+
+	      <li>
+            <div class="popenings-parts">
+                <h4>Manager</h4>
+                <p>Zetm inc</p>
+                <p>Bangalore</p>
+            </div>
+            </li>
+
+	      <li>
+            <div class="popenings-parts">
+                <h4>Software Engineer</h4>
+                <p>Mow Technologies</p>
+                <p>Bangalore</p>
+            </div>
+            </li>
+
+	      <li>
+            <div class="popenings-parts">
+                <h4>Test Engineer</h4>
+                <p>Questp Pvt Ltd</p>
+                <p>Bangalore</p>
+            </div>
+            </li>
+
+	      <li>
+            <div class="popenings-parts">
+                <h4>Analyst</h4>
+                <p>Pset Technologies</p>
+                <p>Bangalore</p>
+            </div>
+            </li>
+
+	      <li>
+            <div class="popenings-parts">
+                <h4>Customer Support</h4>
+                <p>Vutop Inc.</p>
+                <p>Bangalore</p>
+            </div>
+            </li>
+
+	    </div>
 	    <script type="text/javascript">
 		 $(window).load(function() {
 			$("#flexiselDemo3").flexisel({
 				visibleItems: 6,
 				animationSpeed: 1000,
-				autoPlay:false,
+				autoPlay:true,
 				autoPlaySpeed: 3000,    		
 				pauseOnHover: true,
 				enableResponsiveBreakpoints: true,
