@@ -2803,11 +2803,21 @@ background-color:#209098;
 }
 .pcircle-inside-main
 {
+width: 40%;
+height: auto;
+position: absolute;
+top: calc(50% - 20%);
+left: calc(50% - 20%);
+}
+/*
+.pcircle-inside-main
+{
 margin:30px;
 margin-top: 82px;
 padding: 0px;
 color:White;
 }
+*/
 .pcircle-inside-content
 {
 padding-top: 10px;
