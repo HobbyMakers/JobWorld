@@ -2801,13 +2801,18 @@ border-radius: 500px;
 padding:10px;
 background-color:#209098;
 }
+
 .pcircle-inside-main
-{width: 100%;
+{
+width: 40%;
 height: auto;
-top: 30%;
-position: relative;
-	color:white;
+position: absolute;
+top: calc(50% - 20%);
+left: calc(50% - 20%);
+color: #111;
 }
+
+
 /*
 .pcircle-inside-main
 {
