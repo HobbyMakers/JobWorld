@@ -2802,12 +2802,11 @@ padding:10px;
 background-color:#209098;
 }
 .pcircle-inside-main
-{
-width: 40%;
+{width: 100%;
 height: auto;
-position: absolute;
-top: calc(50% - 20%);
-left: calc(50% - 20%);
+top: 30%;
+position: relative;
+	color:white;
 }
 /*
 .pcircle-inside-main
