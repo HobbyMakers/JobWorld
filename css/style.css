@@ -2778,6 +2778,9 @@ ul.grid-1 li.grid-1_right h4, ul.grid-1 li.grid-1_left h4 {
 }
 
 
+
+
+
 /*Css Circle*/
 .pcircle-container {
     display: table;
@@ -2801,19 +2804,6 @@ border-radius: 500px;
 padding:10px;
 background-color:#209098;
 }
-
-.pcircle-inside-main
-{
-width: 40%;
-height: auto;
-position: absolute;
-top: calc(50% - 20%);
-left: calc(50% - 20%);
-color: #111;
-}
-
-
-/*
 .pcircle-inside-main
 {
 margin:30px;
@@ -2821,7 +2811,6 @@ margin-top: 82px;
 padding: 0px;
 color:White;
 }
-*/
 .pcircle-inside-content
 {
 padding-top: 10px;
@@ -2945,4 +2934,4 @@ padding-bottom: 10px;
 .popenings-parts
 {
 	color: #727272;
-	}
+}
