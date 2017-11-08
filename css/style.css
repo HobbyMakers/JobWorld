@@ -3383,7 +3383,7 @@ p.sm_1
 .pcircle-inside-main
 {
 	margin: 10px;
-	margin-top: 82px;
+	margin-top: 65px;
 	padding: 0px;
 	color: White;
 }
@@ -3521,11 +3521,11 @@ p.sm_1
 	background: #3496ac;
 	border-radius: 588px;
 	color: white;
-	height: 280px;
+	height: 230px;
 	font-weight: bold;
-	width: 280px;
+	width: 240px;
 	display: table;
-	margin: 25px auto;
+	margin: 0px auto;
 	border: 10px solid #297080;
 	-webkit-transition: border 1s; /* For Safari 3.1 to 6.0 */
 	transition: border 1s;
@@ -3541,7 +3541,7 @@ p.sm_1
 }
 .pbringTop
 {
-	margin-top: -150px;
+	margin-top: -125px;
 	z-index: 1000;
 	position: relative;
 }
