@@ -299,7 +299,7 @@ h2.title
 	text-align: center;
 	font-size: 2em;
 	font-weight: 400;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 }
 .nbs-flexisel-container
 {
@@ -3382,7 +3382,7 @@ p.sm_1
 /*Css Circle*/
 .pcircle-inside-main
 {
-	margin: 30px;
+	margin: 10px;
 	margin-top: 82px;
 	padding: 0px;
 	color: White;
@@ -3424,9 +3424,9 @@ p.sm_1
 	{
 		font-size: 2em !important;
 	}
-.pbringTop
-{
-	margin-top:0px !important;
+	.pbringTop
+	{
+		margin-top: 0px !important;
 	}
 }
 
@@ -3488,7 +3488,7 @@ p.sm_1
 	text-align: center;
 	font-size: 2em;
 	font-weight: 400;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 /*openings*/
@@ -3511,28 +3511,59 @@ p.sm_1
 }
 
 /*simple circle*/
-.pblock {
-    text-align: center;
-    vertical-align: middle;
+.pblock
+{
+	text-align: center;
+	vertical-align: middle;
 }
-.pcircle-main 
+.pcircle-main
 {
 	background: #3496ac;
-border-radius: 188px;
-color: white;
-height: 300px;
-font-weight: bold;
-width: 300px;
-display: table;
-margin: 25px auto;
+	border-radius: 588px;
+	color: white;
+	height: 280px;
+	font-weight: bold;
+	width: 280px;
+	display: table;
+	margin: 25px auto;
+	border: 10px solid #297080;
+	-webkit-transition: border 1s; /* For Safari 3.1 to 6.0 */
+	transition: border 1s;
 }
-.pcircle-main p {
-    vertical-align: middle;
-    display: table-cell;
+.pcircle-main:hover
+{
+	border: 10px solid #58c0d8;
+}
+.pcircle-main p
+{
+	vertical-align: middle;
+	display: table-cell;
 }
 .pbringTop
 {
-	margin-top:-150px;
-	}
+	margin-top: -150px;
+	z-index: 1000;
+	position: relative;
+}
 
 /*simple Circle*/
+
+.pfix-container
+{
+	max-width: 1600px;
+	margin: 5px auto 0 auto;
+	padding: 0px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.pfix-size
+{
+	width: 175px;
+	height: 80px;
+	line-height: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
